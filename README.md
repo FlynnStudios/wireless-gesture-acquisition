@@ -270,8 +270,6 @@ The Unity-side application also supports recording the received finger-state dat
 
 The demonstration shows physical finger motion on the acquisition device being reflected by the virtual hand on the PC.
 
-The completed system demonstrated that five independent finger-motion channels could be:
-
 The completed prototype demonstrated end-to-end acquisition of five independent finger-motion channels, from physical sensing and embedded processing through Bluetooth transmission to PC-side visualization and data recording.
 
 The original thesis demonstration included several example hand configurations, including:
