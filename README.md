@@ -188,7 +188,7 @@ AT
 
 The preserved firmware transmits the packet over UART at **115200 baud**.
 
-The text-based format also made the data easy to inspect during development and straightforward to parse on the PC side.
+The ASCII format is human-readable and straightforward to inspect and parse on the PC side.
 
 ---
 
@@ -272,13 +272,7 @@ The demonstration shows physical finger motion on the acquisition device being r
 
 The completed system demonstrated that five independent finger-motion channels could be:
 
-- physically sensed;
-- digitized through the ADS1115 modules;
-- processed and packaged by the STM32;
-- transmitted over the Bluetooth serial link;
-- relayed to the PC application;
-- visualized as independent virtual-finger states;
-- recorded for later use.
+The completed prototype demonstrated end-to-end acquisition of five independent finger-motion channels, from physical sensing and embedded processing through Bluetooth transmission to PC-side visualization and data recording.
 
 The original thesis demonstration included several example hand configurations, including:
 
